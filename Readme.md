@@ -58,3 +58,4 @@ az spring-cloud app logs -n todo-service -f
 
 
 ## Integrate Gateway
+:arrow_right: [Gateway Setup](https://github.com/ampacheco-kubtec/azure-spring-clooud-gateway)
