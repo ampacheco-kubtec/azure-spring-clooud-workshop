@@ -36,7 +36,7 @@ az spring-cloud app create -n todo-service
 
 ## DB Setup
 ```
-az cosmosdb create --name ${SPRING_CLOUD_NAME}-cosmosdb --kind MongoDB
+az cosmosdb create --name ${AZ_SPRING_SERVICE}-cosmosdb --kind MongoDB
 az cosmosdb mongodb database create --account-name ${AZ_SPRING_SERVICE}-cosmosdb --name "cosmosdb-todos"
 ```
 
