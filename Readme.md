@@ -24,7 +24,7 @@ az spring-cloud create -g "$AZ_GROUP" -n "$AZ_SPRING_SERVICE" --sku standard
 
 ### Setup Defaults
 ```
-az configure --defaults group=${RESOURCE_GROUP}
+az configure --defaults group=${AZ_GROUP}
 az configure --defaults spring-cloud=${AZ_SPRING_SERVICE}
 ```
 ## Setup Config Server
