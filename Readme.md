@@ -51,4 +51,10 @@ curl https://start.spring.io/starter.tgz -d dependencies=web,data-mongodb,cloud-
 az spring-cloud app deploy -n todo-service --jar-path target/demo-0.0.1-SNAPSHOT.jar
 ```
 
+## Troubleshoot Deployment
+```
+az spring-cloud app logs -n todo-service -f
+```
+
+
 ## Integrate Gateway
